@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    font-family: Verdana;
+}
+.container_fluid{
+    width: 100%;
+}
+header{
+    min-height: 100px;
+    background-color: white;
+}
+header .logo{
+    max-width: 261px;
+}
+header .logo img{
+    width: 100%;
+}
+.container{
+max-width: 11480px;
+margin: auto;
+min-height: inherit;
+}
+.strip{
+    min-height: 300px;
+    background-color: purple;
+    background-image: url(images/strip.png);
+    background-size: cover;
+    background-position: center top;
+}
+.blocks{
+    min-height: 100px;
+    background-color: honeydew;
+}
+footer{
+      min-height: 300px;
+      background-color: #333333;
+}

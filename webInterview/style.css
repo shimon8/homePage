@@ -1,0 +1,15 @@
+button {
+    color: green;
+    transition-property: background;
+    transition-duration: 2s;
+
+}
+td{
+    transition-duration: 2s;
+}
+td:hover{
+    color: gray;
+}
+button:hover{
+    color: green;
+}
