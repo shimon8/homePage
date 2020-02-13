@@ -14,9 +14,35 @@ header{
 }
 header .logo{
     max-width: 261px;
+    float: left;
+
 }
 header .logo img{
     width: 100%;
+}
+header nav{
+    float: left;
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+header nav li{
+display: inline-block;
+}
+header nav a
+{
+    color: gray;
+    text-decoration: none;
+    padding: 10px;
+}
+header nav a:hover{
+    color: greenyellow;
 }
 .container{
 max-width: 11480px;
